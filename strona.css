@@ -528,6 +528,15 @@ footer span {
     	margin-bottom: 20px;
     }
 
+    .overlay h2 {
+    	font-size: 8px;
+    }
+
+    .overlay p {
+    	font-size: 8px;
+    	text-align: center;
+    }
+
     .people img {
     	float: none;
     	display:block;
