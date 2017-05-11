@@ -449,6 +449,15 @@ footer span {
     	font-size: 25px;
     }
 
+    .benefits i {
+    	margin: 0 auto;
+    	margin-top: 20px;
+    }
+
+    .benefits2 p {
+    	margin-bottom: 20px;
+    }
+
     .people img {
     	float: none;
     	display:block;
@@ -507,6 +516,15 @@ footer span {
     .bigPhoto p {
     	font-size: 15px;
     	margin: 0 auto;
+    	margin-bottom: 20px;
+    }
+
+    .benefits i {
+    	margin: 0 auto;
+    	margin-top: 20px;
+    }
+
+    .benefits2 p {
     	margin-bottom: 20px;
     }
 
