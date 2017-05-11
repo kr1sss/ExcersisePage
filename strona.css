@@ -14,11 +14,11 @@ header {
 
 /*nav section*/
 .navbar-inverse {
-      background-color:transparent !important;
-      border-color:transparent;
-      background-image:none;
-      box-shadow:none;
- }
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+}
 
 .nav.navbar-nav.navbar-right li > a {
 	color: #fff;
@@ -32,6 +32,10 @@ header {
 
 .nav.navbar-nav.navbar-right li > a:hover {
 	text-decoration: underline;
+}
+
+.activeBoxNavbar {
+	border: none;
 }
 
 /* jumbotron bigPhoto section */
@@ -129,7 +133,7 @@ header {
 
 /*gallery*/
 .image-container {
-  	position: relative;
+	position: relative;
 }
 
 .image {
@@ -175,7 +179,7 @@ header {
 }
 
 .overlay:hover {
-  	opacity: 0.75;
+	opacity: 0.75;
 }
 
 /*people*/
@@ -370,6 +374,7 @@ header {
 
 /*footer*/
 footer {
+	padding: 20px;
 	background-color: #313454;
 	text-align: center;
 	line-height: 100%;
@@ -425,6 +430,9 @@ footer span {
 .col-offset-10 {margin-left: 83.33%;}
 .col-offset-11 {margin-left: 91.66%;}
 .col-offset-12 {margin-left: 100%;}
+
+
+/*media queres*/
 
 @media (min-width: 1200px) {
     .container2 {
