@@ -559,7 +559,7 @@ footer span {
 
 	.people .button {
 		float: none;
-		display:block;
+		display: block;
 		max-width: 100%;
 		height: auto;
 		margin: 0 auto;
@@ -570,5 +570,20 @@ footer span {
 		font-size: 20px;
 		width: auto;
 		text-align: right;
+	}
+
+	.contact h1 {
+		margin-top: 20px;
+	}
+
+	.contact p {
+		font-size: 10px;
+	}
+
+	.contact .button {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
 	}
 }
