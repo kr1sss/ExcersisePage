@@ -83,7 +83,7 @@ header {
 	transform: scale(1.20);
 }
 
-/*benefits*/
+/*benefits/features */
 .benefits i {
 	color: #e84545;
 	font-size: 70px;
@@ -252,6 +252,8 @@ header {
 	margin-left: 85px;
 	font-style: italic;
 	width: 500px;
+	height: 200px;
+	position: relative;
 }
 
 .motto p {
@@ -274,8 +276,13 @@ header {
 	height: 500px;
 }
 
-/*announce*/
-.announce h1 {
+.carousel.slide ol {
+	position: absolute;
+	bottom: -200px;
+}
+
+/*section download*/
+.download h1 {
 	margin-top: 100px;
 	margin-bottom: 20px;
 	font-size: 28px;
@@ -285,7 +292,7 @@ header {
 	text-align: center;
 }
 
-.announce p {
+.download p {
 	font-size: 13px;
 	line-height: 21px;
 	font-family: Raleway;
@@ -294,7 +301,7 @@ header {
 	text-align: center;
 }
 
-.announce button {
+.download button {
 	font-size: 13px;
 	line-height: 21px;
 	color: #fff;
@@ -312,12 +319,12 @@ header {
 	transition: 0.3s;
 	margin-bottom: 100px;
 }
-.announce button:hover {
+.download button:hover {
 	background-color: #8e0f20;
 	transform: scale(1.20);
 }
 
-/*contact*/
+/*section contact*/
 .contact {
 	background-color: #3a3e64;
 	height: 250px;
@@ -489,16 +496,21 @@ footer span {
 
 	.motto h1 {
 		font-size: 30px;
-		width: auto;
+		width: 100%;
 		text-align: right;
 	}
 
-	.announce h1 {
+	.motto p {
+		margin-top: 20px;
+		text-align: right;
+	}
+
+	.download h1 {
 		margin-top: 20px;
 		line-height: 100%;
 	}
 
-	.announce button {
+	.download button {
 		margin-bottom: 20px;
 	}
 }
@@ -574,14 +586,19 @@ footer span {
 		font-size: 20px;
 		width: auto;
 		text-align: right;
+		margin: 0 auto;
 	}
 
-	.announce h1 {
+	.motto p {
+		text-align: right;
+	}
+
+	.download h1 {
 		margin-top: 20px;
 		line-height: 100%;
 	}
 
-	.announce button {
+	.download button {
 		margin-bottom: 20px;
 	}
 
