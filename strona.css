@@ -393,6 +393,17 @@ footer span {
 	font-weight: bold;
 }
 
+footer .fa {
+	color: #fff;
+	font-size: 18px;
+}
+
+footer .fa:hover {
+	color: #6cc644;
+	font-size: 22px;
+}
+
+
 /*grid responsive solutions*/
 .row:before,
 .row:after {
